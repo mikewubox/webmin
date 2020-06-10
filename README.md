@@ -3,6 +3,7 @@
 ## debian10
 
 #常用软件包
+
 apt-get -y update && apt-get -y install unzip zip wget curl mc nano sudo ufw socat gcc git cron gnupg
 
 
@@ -17,4 +18,5 @@ echo "deb https://download.webmin.com/download/repository sarge contrib" | sudo 
 
 
 #安装install
+
 sudo apt update && sudo apt install -y webmin
